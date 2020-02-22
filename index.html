@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Meta tag to allow for responsive scaling -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Page Title, as shown in the tab in the browser -->
+  <title>Roberts Carpentry | Under Construction</title>
+  <!-- Lets use a Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+  <!-- Link to our CSS Stylesheet -->
+  <link href="styles.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.4/fullpage.css" />
+</head>
+
+<body>
+	<div id="fullpage">
+
+  <header class="section">
+	  <div class="container"> 
+    <img class="robertscarpentrylogo" src="images/roberts_carpentry_logo.png">
+	<div class="heading">
+	  <h1>Roberts Carpentry</h1>
+		<p class="inc">Inc.</p>
+	  <h2>Under Construction</h2>
+	</div>
+	<p class="thankyou"> We are working hard to make a website just for you. Thank you for your patience.
+		<br> In the meantime, please contact me using the form below.
+	</p>
+	  </div>
+  </header>
+		
+ <section class="section">
+	  <div class="slide contact">
+	    <div class="container">
+	     <a href="robertscarpentry.html"><img class="logo2" src="images/roberts_carpentry_logo.png" alt="Roberts Carpentry logo"> </a>
+	     <form method="post" action="contactengine.php">
+		   <h3>Contact me</h3>
+			 <p class="ian">Ian Roberts</p>
+			<p class="ian">constructwithroberts@gmail.com</p>
+		  <p class="ian">604.785.4261</p>
+	 <p class="ian">Metro Vancouver, BC</p>
+		
+		   <input type="text" name="Name" id="Name" placeholder="Name" /><br>
+		
+		   <input type="text" name="Email" id="Email" placeholder="Your email" /><br>
+		
+		   <textarea name="Message" id="Message" placeholder="Your message"></textarea><br>
+
+		   <input type="submit" name="submit" value="Email Me" class="submit-button" />
+	     </form>
+	    </div>
+
+		  
+        <footer>
+         &copy; Roberts Carpentry Inc.
+        </footer>
+	 </div>
+</section>
+  
+ 
+      <!-- <a href="#" data-featherlight="myimage.png">Open image in lightbox</a> -->
+		
+</div>
+		
+</body>		
+
+
+<script src="jquery-1.7.0.min.js"></script>
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.4/fullpage.js"></script>	
+	
+<script>
+	$(document).ready(function() {
+	$('#fullpage').fullpage({
+		//options here
+		autoScrolling:true,
+		scrollHorizontally: true
+	});
+
+	//methods
+	$.fn.fullpage.setAllowScrolling(true);
+});
+</script>	
+
+	
+	
+
+
+</html>
