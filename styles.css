@@ -323,5 +323,9 @@ footer {
     width:120px;
     border-radius:20px;
 }
+	
+p {
+    margin-left:0px;
+}
 
 }
